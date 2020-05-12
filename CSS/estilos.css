@@ -1,0 +1,44 @@
+body{
+    background-image:
+      url('https://images.pexels.com/photos/34627/pexels-photo.jpg?cs=srgb&dl=cinza-cinzento-design-livros-34627.jpg&fm=jpg');
+  background-size: auto 100vh;
+  font-family: Arial;
+  height: 100vh;
+  }
+  .menu {background-color: white;
+    
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-around
+  }
+  .menu li {
+    list-style: none;
+  }
+  a {text-decoration: none;
+    color: gray
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-title {
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 0 #cccccc, 
+  0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 
+  0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 
+  0 6px 1px rgba(0, 0, 0, 0.1), 
+  0 0 5px rgba(0, 0, 0, 0.1), 
+  0 1px 3px rgba(0, 0, 0, 0.3), 
+  0 3px 5px rgba(0, 0, 0, 0.2), 
+  0 5px 10px rgba(0, 0, 0, 0.25), 
+  0 10px 10px rgba(0, 0, 0, 0.2), 
+  0 20px 20px rgba(0, 0, 0, 0.15);
+  }
+  .site-subtitle {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+    text-shadow: 1px 1px 0px #fff,
+  3px 3px 0px rgba(0,0,0,0.15);
+  }
